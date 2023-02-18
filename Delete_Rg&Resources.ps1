@@ -2,7 +2,7 @@
 Connect-AzAccount
 
 # Select Azure subscription
-Select-AzSubscription -SubscriptionId 126330c5-6970-41dd-adaa-8c15c9ef87a9
+Select-AzSubscription -SubscriptionId <ID>
 
 # Get all resources in the subscription
 $resources = Get-AzResource
